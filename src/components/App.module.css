@@ -1,0 +1,42 @@
+.feedback_card {
+  width: 440px;
+  height: 460px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px;
+  border: 8px solid #cccece;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #e3e6e6;
+  box-shadow: -2px 16px 37px -12px #000000bf;
+}
+li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 60px;
+}
+.section_title {
+  font-size: 32px;
+}
+.btn_thumb {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.feedback_btn {
+  padding: 6px 18px;
+  border-radius: 6px;
+  background-color: #aee8ee;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: color 250ms linear, background-color 250ms linear;
+}
+.feedback_btn:is(:hover, :focus) {
+  color: #f0ffff;
+  background-color: #3b3bbe;
+}
+.nofeedback {
+  font-size: 20px;
+}
